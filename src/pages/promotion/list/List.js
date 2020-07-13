@@ -1,5 +1,5 @@
 import React from "react";
-import PromotionCard from "../Card/card";
+import PromotionCard from "../card/Card";
 import "./List.css";
 
 const PromotionList = ({ loading, error, promotions }) => {

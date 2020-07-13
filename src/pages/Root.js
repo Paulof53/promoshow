@@ -4,8 +4,8 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import PagesPromotionSearch from './Promotion/Search/Search';
-import PagesPromotionForm from './Promotion/Form/Form';
+import PagesPromotionSearch from './promotion/search/Search';
+import PagesPromotionForm from './promotion/form/Form';
 
 const Root = () => {
   return (
