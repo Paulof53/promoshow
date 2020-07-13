@@ -3,12 +3,12 @@ import React, {
   useEffect,
   useRef
 } from "react";
-import useApi from "Components/utils/useApi";
+import useApi from "../utils/useApi";
 import {
   Link
 } from "react-router-dom";
 
-import PromotionList from "../List/List";
+import PromotionList from "../list/List";
 import "./Search.css";
 
 const PromotionSearch = () => {

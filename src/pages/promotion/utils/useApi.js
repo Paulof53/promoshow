@@ -2,7 +2,7 @@ import {
     useState
   } from "react";
   import axios from "axios";
-  import useDebouncedPromise from 'Components/utils/useDebouncedPromise';
+  import useDebouncedPromise from './useDebounce';
   
   const initialRequestInfo = {
     error: null,
